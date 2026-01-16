@@ -7,3 +7,27 @@
 h1 {
     text-decoration: underline;
 }
+
+table th, table td {
+    border: thick double black;
+    padding: 2px 3px;
+}
+
+table th {
+    text-align: center;
+}
+
+.precio :not(:first-child) {
+    text-align: right;
+}
+
+.total :not(:first-child){
+    text-align: right;
+    font-weight: bold;
+}
+
+.total :first-child {
+    text-align: center;
+    font-weight: bold;
+}
+

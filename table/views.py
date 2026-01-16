@@ -1,3 +1,14 @@
 from django.shortcuts import render
 
-# Create your views here.
+
+def pedidos(request):
+    """
+    Docstring for pedidos
+    to view the table of pedidos
+    """
+
+    template = 'pedidos.html'
+    context = {
+        'pedidos': 'active',
+    }
+    return render(request, template, context)
