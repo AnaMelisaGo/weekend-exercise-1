@@ -9,8 +9,9 @@ h1 {
 }
 
 table th, table td {
-    border: thick double black;
+    border: 10px groove;
     padding: 2px 3px;
+    border-collapse: collapse;
 }
 
 table th {
@@ -31,3 +32,14 @@ table th {
     font-weight: bold;
 }
 
+.t-head th {
+    width: 300px;
+}
+
+.t-head :first-child {
+    background-color: blue;
+}
+
+.t-head :not(:first-child) {
+    background-color: red;
+}

@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="d-flex justify-content-center">
+    <table>
+        <tr>
+            <th colspan="4">Titulo General</th>
+        </tr>
+        <tr class="t-head">
+            <th></th>
+            <th>COLUMNA 1</th>
+            <th>COLUMNA 2</th>
+            <th>COLUMNA 3</th>
+        </tr>
+        <tr>
+            <td rowspan="2"><b>Fila1 con ROWSPAN = ocupa 2 filas</b></td>
+            <td>fila 1 columna1</td>
+            <td>fila 1 columna 2</td>
+            <td>fila 1 columna 3</td>
+        </tr>
+        <tr>
+            <td>fila 2 columna1</td>
+            <td>fila 2 columna2</td>
+            <td>fila2 columna3</td>
+        </tr>
+        <tr>
+            <td colspan="2">COLSPAN = ocupa 2 columnas</td>
+            <td colspan="2">COLSPAN = ocupa 2 columnas</td>
+        </tr>
+    </table>
+</div>
+<p class="text-center">Agrupando celdas</p>
+{% endblock %}

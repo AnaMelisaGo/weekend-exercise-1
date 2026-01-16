@@ -12,3 +12,16 @@ def pedidos(request):
         'pedidos': 'active',
     }
     return render(request, template, context)
+
+
+def titulo(request):
+    """
+    Docstring for titulo
+    
+    :to view titulo general
+    """
+    template = 'titulo.html'
+    context = {
+        'titulo': 'active',
+    }
+    return render(request, template, context)
