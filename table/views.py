@@ -38,3 +38,16 @@ def primer_base(request):
         'base': 'active',
     }
     return render(request, template, context)
+
+
+def fusion_columna(request):
+    """
+    Docstring for fusion_columna
+    
+    :to view fusion de columna
+    """
+    template = 'fusion_columna.html'
+    context = {
+        'fusion_columna': 'active',
+    }
+    return render(request, template, context)

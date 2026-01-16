@@ -50,3 +50,11 @@ table th {
 .base-head th {
     width: 400px;
 }
+
+.fusion-columna tr td {
+    width: 100px;
+}
+
+.last-row td:nth-child(3) {
+    width: 60px;
+}
