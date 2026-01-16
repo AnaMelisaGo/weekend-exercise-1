@@ -25,3 +25,16 @@ def titulo(request):
         'titulo': 'active',
     }
     return render(request, template, context)
+
+
+def primer_base(request):
+    """
+    Docstring for primer_base
+    
+    :to view mi primer base
+    """
+    template = 'primer_base.html'
+    context = {
+        'base': 'active',
+    }
+    return render(request, template, context)

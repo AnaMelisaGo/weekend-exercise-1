@@ -1,7 +1,10 @@
 .navbar-nav .nav-link.active {
     font-weight: bold;
+    background-color: lightskyblue;
+}
+
+.navbar .nav-link:hover {
     text-decoration: underline;
-    background-color: blanchedalmond;
 }
 
 h1 {
@@ -42,4 +45,8 @@ table th {
 
 .t-head :not(:first-child) {
     background-color: red;
+}
+
+.base-head th {
+    width: 400px;
 }

@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<p class="text-center">Mi primera tabla de datos</p>
+<table>
+    <tr class="base-head">
+        <th>Nombre</th>
+        <th>Edad</th>
+        <th>Profesión</th>
+        <th>Provincia</th>
+    </tr>
+    <tr>
+        <td>Paco Perez</td>
+        <td>32</td>
+        <td>Soldador</td>
+        <td>Madrid</td>
+    </tr>
+    <tr>
+        <td>Ana Sales</td>
+        <td>24</td>
+        <td>Secretaria</td>
+        <td>Ávila</td>
+    </tr>
+    <tr>
+        <td>Laura Sanchez</td>
+        <td>45</td>
+        <td>Enfermera</td>
+        <td>Toledo</td>
+    </tr>
+    <tr>
+        <td>Paulo Fernández</td>
+        <td>39</td>
+        <td>Abogado</td>
+        <td>Madrid</td>
+    </tr>
+    <tr>
+        <td>Fila 6 Columna 1</td>
+        <td>Fila 6 Columna 2</td>
+        <td>Fila 6 Columna 3</td>
+        <td>Fila 6 Columna 4</td>
+    </tr>
+</table>
+{% endblock %}
