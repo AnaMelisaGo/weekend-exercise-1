@@ -58,3 +58,11 @@ table th {
 .last-row td:nth-child(3) {
     width: 60px;
 }
+
+.fusion-filas tr td {
+    width: 50px;
+}
+
+.first-row td:first-child {
+    width: 100px;
+}

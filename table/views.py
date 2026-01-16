@@ -51,3 +51,16 @@ def fusion_columna(request):
         'fusion_columna': 'active',
     }
     return render(request, template, context)
+
+
+def fusion_filas(request):
+    """
+    Docstring for fusion_filas
+    
+    :to view fusion de fila
+    """
+    template = 'fusion_filas.html'
+    context = {
+        'fusion_filas':'active',
+    }
+    return render(request, template, context)
