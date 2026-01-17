@@ -1,9 +1,20 @@
-core.Microsoft*
-core.mongo*
-core.python*
-env.py
+#python
 __pycache__/
 *.py[cod]
+*.log
+
+#virtual environment
+venv/
+.env/
+
+#django
+db.sqlite3
+
+#vscode
+.vscode/
+
+#node
 node_modules/
-.github/
-cloudinary_python.txt
+
+#Project
+env.py
